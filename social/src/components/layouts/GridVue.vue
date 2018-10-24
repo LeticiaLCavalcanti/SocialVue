@@ -1,10 +1,7 @@
 <template>
   <div :class="'col s' + tamanho">
     <slot></slot>
-
   </div>
-
-
 </template>
 
 <script>
