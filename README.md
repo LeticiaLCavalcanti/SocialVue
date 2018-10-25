@@ -1,10 +1,11 @@
 # SocialVue
 
-## Minha primeira aplicação com vue
+## My firt VUE JS aplication
 
-Projeto feito através de conhecimento obtido em um curso de como criar uma SPA com Vue JS e API com Laravel.
+I maked this project while I learn VUE JS.
 
-Link do curso: https://www.udemy.com/spa-com-vue-js/
+Vue JS is an awesome JavaScript Framework for building Frontend Applications! <3
 
+Course link: https://www.udemy.com/spa-com-vue-js/ (instructor language: Brazilian portuguese)
 
 
