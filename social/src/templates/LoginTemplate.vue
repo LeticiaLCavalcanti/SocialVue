@@ -1,7 +1,11 @@
 <template>
   <span>
     <header>
-      <nav-bar logo="Social" url="#" cor="#ad1457 pink darken-4" />
+      <nav-bar logo="Social" url="/" cor="#6a1b9a purple darken-3">
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/login">Entrar</router-link></li>
+        <li><router-link to="/cadastro">Cadastra-se</router-link></li>
+      </nav-bar>
     </header>
     <main>
       <div  class="container">
@@ -17,7 +21,7 @@
          </div>
       </div>
     </main>
-    <footer-vue cor="#ad1457 pink darken-4" logo="Social" descricao="Teste" ano="2018">
+    <footer-vue cor="#6a1b9a purple darken-3" logo="Social" descricao="Teste" ano="2018">
         <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
         <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
         <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
