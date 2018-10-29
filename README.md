@@ -1,6 +1,6 @@
 # SocialVue
 
-## My firt VUE JS aplication
+## My first VUE JS application
 
 I maked this project while I learn VUE JS.
 
