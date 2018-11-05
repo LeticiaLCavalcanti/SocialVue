@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use App\User;
+use Illuminate\Support\Facades\Validator;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,17 @@ use App\User;
 
 Route::post('/cadastro',function (Request $request) {
     $data = $request->all();
+
+    $validacao = Validator::make($data, [
+        'name' => 'required|string|max:255',
+        'email' => 'required|string|email|max:255|unique:users',
+        'password' => 'required|string|min:6|confirmed',
+    ]);
+
+    if($validacao->fails()){
+        return $validacao->errors();
+    };
+
     $user = User::create([
         'name' => $data['name'],
         'email' => $data['email'],
