@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c220d1b-bf9a-4dfd-aa89-f4ccde565312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webservice/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webservice/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webservice/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +32,7 @@
     <session id="1432460596">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
@@ -53,7 +41,8 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -65,7 +54,7 @@
           <entry key="htacess" value="1" />
           <entry key="html" value="8" />
           <entry key="js" value="12" />
-          <entry key="php" value="23" />
+          <entry key="php" value="24" />
           <entry key="sqlite" value="13" />
           <entry key="vue" value="46" />
         </counts>
@@ -74,7 +63,7 @@
         <counts>
           <entry key="HTML" value="8" />
           <entry key="JavaScript" value="12" />
-          <entry key="PHP" value="23" />
+          <entry key="PHP" value="24" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Vue.js" value="46" />
           <entry key="htaccess" value="1" />
@@ -91,7 +80,7 @@
           <entry key="htaccess" value="14" />
           <entry key="html" value="130" />
           <entry key="js" value="174" />
-          <entry key="php" value="82" />
+          <entry key="php" value="432" />
           <entry key="sqlite" value="4" />
           <entry key="vue" value="5008" />
         </counts>
@@ -100,7 +89,7 @@
         <counts>
           <entry key="HTML" value="130" />
           <entry key="JavaScript" value="174" />
-          <entry key="PHP" value="82" />
+          <entry key="PHP" value="432" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Vue.js" value="5008" />
           <entry key="htaccess" value="14" />
@@ -114,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/webservice/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
                 <element signature="e#23#63#0#PHP" expanded="true" />
               </folding>
@@ -123,10 +112,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webservice/config/auth.php">
+        <entry file="file://$PROJECT_DIR$/webservice/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="390">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#7#35#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +169,7 @@
         <option value="$PROJECT_DIR$/webservice/database/database.sqlite" />
         <option value="$PROJECT_DIR$/webservice/app/User.php" />
         <option value="$PROJECT_DIR$/webservice/config/auth.php" />
+        <option value="$PROJECT_DIR$/webservice/routes/api.php" />
       </list>
     </option>
   </component>
@@ -195,10 +188,10 @@
       <path value="$PROJECT_DIR$/webservice/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="25" />
-    <option name="width" value="729" />
-    <option name="height" value="741" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
+    <option name="width" value="719" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -206,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,38 +216,18 @@
               <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
               <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
               <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,17 +299,18 @@
       <workItem from="1541016546868" duration="668000" />
       <workItem from="1541078597158" duration="2398000" />
       <workItem from="1541092698866" duration="291000" />
+      <workItem from="1541426921323" duration="6342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85082000" />
+    <option name="totallyTimeSpent" value="92038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="637" y="27" width="729" height="741" extended-state="0" />
+    <frame x="0" y="27" width="719" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.329429" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33878157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,7 +324,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.33060557" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -526,16 +501,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php" />
     <entry file="file://$PROJECT_DIR$/webservice/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -597,20 +564,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webservice/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webservice/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
             <element signature="e#23#63#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webservice/config/auth.php">
+    <entry file="file://$PROJECT_DIR$/webservice/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        <state relative-caret-position="390">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#7#35#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
