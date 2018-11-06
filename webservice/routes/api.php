@@ -45,7 +45,6 @@ Route::post('/login',function (Request $request) {
     $data = $request->all();
 
     $validacao = Validator::make($data, [
-        'name' => 'required|string|max:255',
         'email' => 'required|string|email|max:255',
         'password' => 'required|string',
     ]);
@@ -56,13 +55,12 @@ Route::post('/login',function (Request $request) {
 
     if(Auth::attempt(['email'=>$data['email'], 'password'=>$data['password']])){
         $user=auth()->user();
+        $user->token = $user->createToken($user->email)->accessToken;
+        return $user;
     }else{
-        return false;
+        return ['status'=> false];
     }
 
-    $user->token = $user->createToken($user->email)->accessToken;
-
-    return ['status'=> false];
 });
 
 Route::middleware('auth:api')->get('/usuario', function (Request $request) {
