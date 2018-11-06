@@ -3,8 +3,10 @@
     <header>
       <nav-bar logo="Social" url="/" cor="#6a1b9a purple darken-3">
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/login">Entrar</router-link></li>
-        <li><router-link to="/cadastro">Cadastra-se</router-link></li>
+        <li v-if="!usuario"><router-link to="/login">Entrar</router-link></li>
+        <li v-if="!usuario"><router-link to="/cadastro">Cadastra-se</router-link></li>
+        <li v-if="usuario"><router-link to="/perfil">{{usuario.name}}</router-link></li>
+        <li v-if="usuario"><a v-on:click="sair()">Sair</a></li>
       </nav-bar>
     </header>
     <main>
@@ -38,12 +40,31 @@
 
   export default {
     name: 'LoginTemplate',
+    data(){
+        return{
+         usuario: false
+        }
+    },
     components:{
       NavBar,
       FooterVue,
       GridVue,
       CardMenuVue
-    }
+    },
+      created(){
+        console.log('cjau');
+        let usuarioAux = sessionStorage.getItem('usuario');
+        if(usuarioAux){
+            this.usuario = JSON.parse(usuarioAux);
+            this.$router.push('/');
+        }
+      },
+      methods:{
+        sair(){
+            sessionStorage.clear();
+            this.usuario = false;
+        }
+      }
   }
 </script>
 
