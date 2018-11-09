@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c220d1b-bf9a-4dfd-aa89-f4ccde565312" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webservice/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/webservice/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,17 +34,18 @@
     <session id="1432460596">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,27 +56,27 @@
           <entry key="htaccess" value="1" />
           <entry key="htacess" value="1" />
           <entry key="html" value="8" />
-          <entry key="js" value="12" />
+          <entry key="js" value="13" />
           <entry key="json" value="1" />
-          <entry key="php" value="29" />
+          <entry key="php" value="31" />
           <entry key="sqlite" value="13" />
-          <entry key="vue" value="51" />
+          <entry key="vue" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="8" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="12" />
-          <entry key="PHP" value="29" />
+          <entry key="JavaScript" value="13" />
+          <entry key="PHP" value="31" />
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Vue.js" value="51" />
+          <entry key="Vue.js" value="52" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="9" />
+          <entry key="ESLintLanguageService" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -81,19 +85,19 @@
           <entry key="env" value="7" />
           <entry key="htaccess" value="14" />
           <entry key="html" value="130" />
-          <entry key="js" value="174" />
-          <entry key="php" value="794" />
+          <entry key="js" value="215" />
+          <entry key="php" value="889" />
           <entry key="sqlite" value="4" />
-          <entry key="vue" value="7174" />
+          <entry key="vue" value="7757" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="130" />
-          <entry key="JavaScript" value="174" />
-          <entry key="PHP" value="794" />
+          <entry key="JavaScript" value="215" />
+          <entry key="PHP" value="889" />
           <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Vue.js" value="7174" />
+          <entry key="Vue.js" value="7757" />
           <entry key="htaccess" value="14" />
         </counts>
       </usages-collector>
@@ -102,34 +106,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/social/src/pages/login/Login.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="39" />
-              <folding>
-                <element signature="e#620#673#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-              <folding>
-                <element signature="e#751#804#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webservice/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="431">
+              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
               <folding>
                 <element signature="e#7#35#0#PHP" expanded="true" />
               </folding>
@@ -137,25 +117,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/social/src/templates/LoginTemplate.vue">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
               <folding>
-                <element signature="e#1301#1349#0" expanded="true" />
+                <element signature="e#1054#1105#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/social/src/templates/SiteTemplate.vue">
+        <entry file="file://$PROJECT_DIR$/social/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
-                <element signature="e#1362#1410#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,6 +148,7 @@
       <find>new order</find>
       <find>new orde</find>
       <find>illuminat</find>
+      <find>password</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/AdminLTE-2.4.5</dir>
@@ -198,7 +179,6 @@
         <option value="$PROJECT_DIR$/social/dist/.htacess" />
         <option value="$PROJECT_DIR$/social/src/main.js" />
         <option value="$PROJECT_DIR$/social/dist/.htaccess" />
-        <option value="$PROJECT_DIR$/social/src/router/index.js" />
         <option value="$PROJECT_DIR$/social/src/components/layouts/NavBar.vue" />
         <option value="$PROJECT_DIR$/webservice/.env" />
         <option value="$PROJECT_DIR$/webservice/vendor/laravel/framework/src/Illuminate/Database/Connectors/SQLiteConnector.php" />
@@ -206,11 +186,13 @@
         <option value="$PROJECT_DIR$/webservice/app/User.php" />
         <option value="$PROJECT_DIR$/webservice/config/auth.php" />
         <option value="$PROJECT_DIR$/webservice/config/app.php" />
-        <option value="$PROJECT_DIR$/webservice/routes/api.php" />
         <option value="$PROJECT_DIR$/social/src/templates/SiteTemplate.vue" />
         <option value="$PROJECT_DIR$/social/src/templates/LoginTemplate.vue" />
-        <option value="$PROJECT_DIR$/social/src/pages/login/Login.vue" />
         <option value="$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue" />
+        <option value="$PROJECT_DIR$/social/src/router/index.js" />
+        <option value="$PROJECT_DIR$/social/src/pages/login/Login.vue" />
+        <option value="$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue" />
+        <option value="$PROJECT_DIR$/webservice/routes/api.php" />
       </list>
     </option>
   </component>
@@ -229,7 +211,8 @@
       <path value="$PROJECT_DIR$/webservice/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="657" />
     <option name="y" value="27" />
     <option name="width" value="709" />
     <option name="height" value="733" />
@@ -250,60 +233,7 @@
             <path>
               <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="social" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="social" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="social" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="social" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="cadastro" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="social" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="social" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
               <item name="webservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPA_com_Vue_JS" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPA_com_Vue_JS" type="b2602c69:ProjectViewProjectNode" />
@@ -331,14 +261,14 @@
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/social/src/pages/login" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/social/src/components/social" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/social/src/pages" />
       <recent name="$PROJECT_DIR$/social/src/templates" />
       <recent name="$PROJECT_DIR$/social/src/components/social" />
       <recent name="$PROJECT_DIR$/social/src/components/layouts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/social/src/components/social" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,17 +319,22 @@
       <workItem from="1541092698866" duration="291000" />
       <workItem from="1541426921323" duration="10692000" />
       <workItem from="1541504287275" duration="14451000" />
+      <workItem from="1541701403288" duration="621000" />
+      <workItem from="1541704610130" duration="3790000" />
+      <workItem from="1541761392758" duration="2522000" />
+      <workItem from="1541764645637" duration="67000" />
+      <workItem from="1541791187615" duration="2320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115979000" />
+    <option name="totallyTimeSpent" value="125347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <frame x="657" y="27" width="709" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.35746607" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.561086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -518,13 +453,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/social/dist/.htaccess" />
-    <entry file="file://$PROJECT_DIR$/social/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/social/src/components/layouts/NavBar.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -622,9 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="e#1093#1144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,9 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,58 +581,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-          <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social/src/templates/SiteTemplate.vue">
+    <entry file="file://$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="e#1362#1410#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="218">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/social/src/templates/LoginTemplate.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="525">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/src/templates/SiteTemplate.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/src/pages/login/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#1301#1349#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webservice/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="431">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
           <folding>
             <element signature="e#7#35#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social/src/pages/login/Login.vue">
+    <entry file="file://$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="1095">
+          <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
           <folding>
-            <element signature="e#620#673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-          <folding>
-            <element signature="e#751#804#0" expanded="true" />
+            <element signature="e#1054#1105#0" expanded="true" />
           </folding>
         </state>
       </provider>

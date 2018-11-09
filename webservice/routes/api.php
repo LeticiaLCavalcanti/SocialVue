@@ -66,3 +66,11 @@ Route::post('/login',function (Request $request) {
 Route::middleware('auth:api')->get('/usuario', function (Request $request) {
     return $request->user();
 });
+
+Route::middleware('auth:api')->put('/perfil', function (Request $request) {
+    $user = $request->user();
+    $data = $request->all();
+    $user->token = $user->createToken($user->email)->accessToken;
+
+    return $user;
+});
