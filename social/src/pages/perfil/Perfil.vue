@@ -9,7 +9,6 @@
           <input type="text" placeholder="Email" v-model="email">
           <input type="password" placeholder="Senha" v-model="password">
           <input type="password" placeholder="Confirme sua senha" v-model="password_confirmation">
-       <form action="#">
           <div class="file-field input-field">
             <div class="btn #e91e63 pink">
               <span>Imagem</span>
@@ -19,8 +18,7 @@
               <input class="file-path validate" type="text">
             </div>
           </div>
-       </form>
-          <button class="btn #2196f3 blue" v-on:click="cadastro()">Enviar</button>
+          <button class="btn #2196f3 blue" v-on:click="perfil()">Atualizar</button>
     </span>
   </site-template>
 </template>
@@ -43,26 +41,29 @@
       }
     },
       created(){
-        let usuarioAux = sessionStorage.getItem('usuario');
-        if(usuarioAux){
-            this.usuario = JSON.parse(usuarioAux);
-            this.name = this.usuario.name;
-        }
+          let usuarioAux = sessionStorage.getItem('usuario');
+          if(usuarioAux){
+              this.usuario = JSON.parse(usuarioAux);
+              this.name = this.usuario.name;
+              this.email = this.usuario.email;
+          }
       },
     components:{
       SiteTemplate
     },
       methods:{
         perfil(){
-            axios.post('http://127.0.0.1:8000/api/perfil', {
+            axios.put('http://127.0.0.1:8000/api/perfil', {
                 name:this.name,
                 email:this.email,
                 password:this.password,
                 password_confirmation:this.password_confirmation
-            },{"headers":{"authorization":"Bearer"+ this.usuario.token}})
+            },{"headers":{"authorization":"Bearer "+this.usuario.token}})
               .then(response => {
-                  if(response.data.token){
-                    console.log(response.data)
+
+                  console.log(response.data);
+              /*    if(response.data.token){
+                    console.log(response.data);
                   }else{
                     console.log('erros de validação')
                     let erros = '';
@@ -70,7 +71,7 @@
                         erros += erro + " ";
                     }
                     alert(erros);
-                }
+                }*/
                 })
               .catch(e => {
                   console.log(e);
