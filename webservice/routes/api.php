@@ -36,8 +36,21 @@ Route::post('/cadastro',function (Request $request) {
 
     ]);
 
-    $user->token = $user->createToken($user->email)->accessToken;
+    if(isset($data['imagem'])){
+        $time = time();
+        $diretorioPai = 'perfils';
+        $diretorioImagem = $diretorioPai.DIRECTORY_SEPARATOR.'perfil_id'.$user->id;
+        $ext = substr($data['imagem'], 11, strpos,($data['imagem'], ';')-11);
+        $urlImagem = $diretorioImagem.DIRECTORY_SEPARATOR.$time.'.'.$ext;
 
+        $file = str_replace('data:image/'.$ext.';base64,','', $data['imagem']);
+        return [$file];
+    }
+
+
+    $user->save();
+
+    $user->token = $user->createToken($user->email)->accessToken;
     return $user;
 });
 
